@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    border: 0;
+    margin:0;
+}
+body{
+    background-color: black;
+}
+.nav-container{
+    background-color:rgba(252, 175, 2, 1);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.left-nav{
+    display: flex;
+    text-align: start;
+}
+.left-nav > h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+.right-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.right-nav > a{
+    color:  rgba(0, 0, 0, 1);
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.left-main{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    color: white;
+}
+.left-main > h2{
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+.right-main > img{
+    width: 500px;
+    height: 300px;
+    padding-top: 10px;
+}
+button{
+    display: inline-block;
+    padding: 10px 70px;
+    margin:5px auto;
+    background-color:rgba(252, 175, 2, 1);
+    color: black;
+    border-radius: 500px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.second-container{
+    padding: 20px 30px;
+    align-items: center;
+}
+.second-container > h2{
+    color: rgba(252, 175, 2, 1);
+    font-weight: bolder;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+input{
+    margin: 10px 0;
+    background-color: black;
+    border: 1px solid rgba(252, 175, 2, 1);
+    border-radius: 55px;
+    padding: 15px 20px;
+}
+::placeholder{
+    color: rgba(252, 175, 2, 1);
+}
+#ftype{
+    width: 97%;
+    padding-left: 20px;
+}
+.form1{
+    display: flex;
+    justify-content: space-between;
+}
+#ztype{
+    width: 40%;
+}
+.button2{
+    position: relative;
+}
+.butt{
+    position: absolute;
+    transform: translateX(175%);
+    margin-top: 20px;
+    background-color:rgba(252, 175, 2, 1);
+    color: black;
+    border-radius: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+table{
+    border: 1.5px solid rgba(252, 175, 2, 1) ;
+    width: 1150px;
+    margin: 100px 30px;
+    border-collapse: collapse;
+}
+thead td{
+    border: 1px solid rgba(252, 175, 2, 1);   
+}
+tbody td{
+    border-right: 1px solid rgba(252, 175, 2, 1);
+}
+td{
+    color: rgba(252, 175, 2, 1);
+    height: 70px;
+    text-align: center;
+}
+tfoot td{
+    border-right: 1px solid black;
+    color: black;
+   background-color: rgba(252, 175, 2, 1);
+}
